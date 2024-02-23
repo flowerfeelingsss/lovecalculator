@@ -1,0 +1,10 @@
+h1 {
+    background-image: url(https://giphy.com/embed/dpp3DNAet0Fs4);
+    font-size: 180px;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: cover;
+}
