@@ -1,45 +1,63 @@
 body {
-    background-color: rgb(225 173 225);
-    color: black;
-    text-align: center;
-    font-family: "Press Start 2P";
-    font-weight: bold;
-
+  background-color: rgb(225 173 225);
+  color: black;
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-weight: bold;
 }
 
-html, body, pre, code, kbd, samp {
-    font-family: "Press Start 2P";
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+  font-family: "Press Start 2P";
 }
 
-h1 {
-    margin: 40px auto;
-    background-image: url(https://i.pinimg.com/originals/78/36/be/7836bebefc157a613f1cf99fd56edd12.gif);
-    background-position: center;
-    font-size: 64px;
-    height: 100%;
-    width: 100vw;
-     background-size: contain; 
-    -webkit-background-clip: text;
-            background-clip: text;
-    color: transparent;
-} 
-
+.glitter-text {
+  margin: 40px auto;
+  background-image: url(https://i.pinimg.com/originals/78/36/be/7836bebefc157a613f1cf99fd56edd12.gif);
+  background-position: center;
+  font-size: 64px;
+  height: 100%;
+  width: 100vw;
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
 p {
-    margin: 0px 150px;
-    font-size: 12px;
-    line-height: 17px;
+  margin: 0px 150px;
+  font-size: 12px;
+  line-height: 17px;
 }
 
 #butterfly {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 .container {
-    margin: 20px 60px;
+  margin: 20px 60px;
 }
 
 #inputs {
-    margin-top: 30px;
+  margin: 30px auto;
+  width: 400px;
+}
+
+.nes-field .nes-input,
+.nes-field .nes-textarea {
+  display: block;
+  background: #e6c2f0;
+}
+
+#main-page {
+  display: none;
+}
+
+#score {
+  font-size: 7rem;
 }

@@ -1,5 +1,6 @@
+const randomNumber = Math.floor(Math.random() * 101)
+
 const loveCalculator = () => {
-  const randomNumber = Math.floor(Math.random() * 101)
   const calculateLoveScore = () => {
     if (randomNumber < 10) {
       return "Oopsie daisy! Looks like our love-o-meter needs a bit more 90s magic to spark that connection. Don't worry, we'll get those butterflies fluttering next time! Keep the faith, and stay groovy!"
@@ -15,3 +16,13 @@ const loveCalculator = () => {
       return "Whoa, baby! Cue the confetti and break out the glow sticks because we've hit love jackpot! Our connection is hotter than a fresh cup of Surge in '96. You're the real MVP, and our love story is straight out of a boy band ballad. Get ready to ride the wave of romance, superstar – we're crushing it!"
   }
 }
+
+var loveButton = document.querySelector("button")
+
+const displayLoveScore = () => {
+  document.querySelector("#score").innerHTML = `${randomNumber}%`
+}
+
+loveButton.addEventListener("click", displayLoveScore)
+
+// #love-score is what we want to show
