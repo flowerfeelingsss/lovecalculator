@@ -38,4 +38,6 @@ OR
 
 somehow capture each version of what we want to return (the number and the paragraphs) into divs with specific IDs and return those IDs 
 
-either way we can glitter up the number just like we did the giant sparkle text
+either way we have to write JS into HTML somehow or write HTML into JS somehow.
+
+we can glitter up the number just like we did the giant sparkle text
