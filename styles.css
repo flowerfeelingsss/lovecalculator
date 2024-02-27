@@ -7,6 +7,9 @@ body {
 
 }
 
+html, body, pre, code, kbd, samp {
+    font-family: "Press Start 2P";
+}
 
 h1 {
     margin: 40px auto;
@@ -34,9 +37,13 @@ p {
 }
 
 .container {
-    margin: 60px;
+    margin: 20px 60px;
 }
 
 #inputs {
     margin-top: 30px;
+}
+
+button {
+    margin-top: 50px;
 }
