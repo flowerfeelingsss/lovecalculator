@@ -47,30 +47,31 @@
       <header>
         <h3 class="glitter-text">Your love score is</h3>
         <h1 class="glitter-text" id="score">00%</h1>
+        <p id="runDown"></p>
       </header>
     </div>
 
-    <div class="container">
-      <div>
-        <img
-          id="butterfly"
-          src="./PUBLIC/vecteezy_gray-butterfly-glitter-on-transparent-background-butterfly_29722853.png"
-          alt=""
-        />
+    <div>
+      <img
+        id="butterfly"
+        src="./PUBLIC/vecteezy_gray-butterfly-glitter-on-transparent-background-butterfly_29722853.png"
+        alt=""
+      />
+    </div>
+
+    <div id="inputs">
+      <div class="nes-field">
+        <label for="name_field">Your name:</label>
+        <input type="text" id="name_field" class="nes-input" />
       </div>
-      <div id="inputs">
-        <div class="nes-field">
-          <label for="name_field">Your name:</label>
-          <input type="text" id="name_field" class="nes-input" />
-        </div>
-        <div class="nes-field">
-          <label for="name_field">Your crush's name</label>
-          <input type="text" id="name_field" class="nes-input" />
-        </div>
+      <div class="nes-field">
+        <label for="name_field">Your crush's name</label>
+        <input type="text" id="name_field" class="nes-input" />
       </div>
-      <div>
-        <button type="button" class="nes-btn is-success">calculate</button>
-      </div>
+    </div>
+
+    <div>
+      <button type="button" class="nes-btn is-success">calculate</button>
     </div>
   </body>
 </html>
