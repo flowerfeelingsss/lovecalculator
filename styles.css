@@ -19,7 +19,7 @@ samp {
   margin: 35px auto 15px auto;
   background-image: url(https://i.pinimg.com/originals/78/36/be/7836bebefc157a613f1cf99fd56edd12.gif);
   background-position: center;
-  font-size: 64px;
+  font-size: 4rem;
   height: 100%;
   width: 100vw;
   background-size: contain;
@@ -43,7 +43,7 @@ p {
 
 @media screen and (max-width: 660px) {
   .glitter-text {
-    font-size: 40px;
+    font-size: 2rem;
   }
 
   p {
@@ -57,6 +57,14 @@ p {
   #butterfly {
     margin-top: 0px;
   }
+
+  /* .nes-field>label {
+    width ------
+  }
+
+  #name-field {
+    width: 300px;
+  } */
 }
 
 .container {
@@ -68,7 +76,7 @@ p {
 }
 
 div.nes-field {
-  width: 500px;
+  width: auto;
   display: inline-block;
   margin: 0px 30px;
 }
