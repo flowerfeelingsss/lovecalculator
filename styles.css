@@ -41,24 +41,6 @@ p {
   margin-top: 15px;
 }
 
-@media screen and (max-width: 660px) {
-  .glitter-text {
-    font-size: 2rem;
-  }
-
-  p {
-    margin: 10px;
-  }
-
-  .screen-full {
-    display: none;
-  }
-
-  #butterfly {
-    margin-top: 0px;
-  }
-}
-
 .container {
   margin: 20px 60px;
 }
@@ -88,4 +70,27 @@ div.nes-field {
 
 .nes-btn {
   margin: 30px;
+}
+
+@media screen and (max-width: 660px) {
+  .glitter-text {
+    font-size: 2rem;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  .screen-full {
+    display: none;
+  }
+
+  #butterfly {
+    margin-top: 0px;
+  }
+
+  #score {
+    font-size: 4rem;
+    margin: 0px;
+  }
 }
