@@ -87,6 +87,10 @@ div.nes-field {
 
   #butterfly {
     margin-top: 0px;
+  }
+
+  #score {
+    font-size: 4rem;
     height: 50px;
     width: 50px;
   }
