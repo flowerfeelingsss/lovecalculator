@@ -91,6 +91,15 @@ div.nes-field {
 
   #score {
     font-size: 4rem;
+    height: 50px;
+    width: 50px;
+  }
+
+  #name_field {
+    padding: 0px;
+  }
+
+  div#inputs {
     margin: 0px;
   }
 }
